@@ -83,3 +83,22 @@ router.delete("/:id", async (req, res) => {
 });
 
 module.exports = router;
+
+function flat(arr) {
+  let ret = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (typeof arr[i] === "number") {
+      console.log("curr is a number: ", arr[i]);
+      ret.push(arr[i]);
+      console.log("Current ret value: ", ret);
+    } else {
+      console.log("Curr is an array, recursing in");
+      const tmp = flat(arr[i]);
+      console.log("got back: ", tmp);
+      console.log("before concat: ", ret);
+      ret = ret.concat(tmp);
+      console.log("after concat: ", ret);
+    }
+  }
+  return ret;
+}
