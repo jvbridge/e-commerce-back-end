@@ -30,7 +30,7 @@ DB_PW='your password'
 DB_NAME='ecommerce_db'
 ```
 
-DEMO VIDEO GOES HERE
+https://user-images.githubusercontent.com/6423593/166869973-5bce1d26-e5dc-486c-b27c-67db6353f6bf.mp4
 
 ## Useage
 
@@ -93,7 +93,9 @@ tags.
 }
 ```
 
-DEMO VIDEO
+
+https://user-images.githubusercontent.com/6423593/166870071-8a08b392-c954-4e77-85c3-d2df39808dac.mp4
+
 
 ## Credits
 
